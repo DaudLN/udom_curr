@@ -18,5 +18,8 @@ class Program(models.Model):
     special_requirements = models.TextField(null=True, blank=True)
     fields_of_work = models.TextField()
 
+    class Meta:
+        ordering = ['name']
+
     def __str__(self):
         return self.name
