@@ -43,8 +43,6 @@ INSTALLED_APPS = [
     # Third party
     'corsheaders',
     'debug_toolbar',
-    'django_static_jquery_ui',
-    'jquery',
     'rest_framework',
     'whitenoise',
 ]
